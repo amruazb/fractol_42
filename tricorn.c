@@ -6,7 +6,7 @@
 /*   By: aabashee <aabashee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/11 20:02:27 by aabashee          #+#    #+#             */
-/*   Updated: 2024/03/11 20:02:31 by aabashee         ###   ########.fr       */
+/*   Updated: 2024/03/13 22:01:39 by aabashee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ static	void	algorithm(t_data *img, int w, int h)
 	y = 0.0;
 	img->xtemp = 0.0;
 	img->iteration = 0;
-	img->max_iteration = 500;
+	img->max_iteration = 200;
 	img->offset = 0.05;
 	while (x * x + y * y <= 4 && img->iteration < img->max_iteration)
 	{

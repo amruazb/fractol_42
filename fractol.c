@@ -6,7 +6,7 @@
 /*   By: aabashee <aabashee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/11 20:00:15 by aabashee          #+#    #+#             */
-/*   Updated: 2024/03/11 20:00:17 by aabashee         ###   ########.fr       */
+/*   Updated: 2024/03/13 14:10:46 by aabashee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 
 void	init_values(t_data *img)
 {
-	img->width = 600;
-	img->height = 600;
+	img->width = 600 * 2;
+	img->height = 600 * 2;
 	img->base_color = 0x387575a3;
 	img->flag = 0;
 	img->zoom = 1;
